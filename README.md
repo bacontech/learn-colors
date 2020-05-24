@@ -1,5 +1,11 @@
 # learn-colors
 
+## Primary and Secondary Colors
+The default route is primary colors (Red, Yellow, Blue).
+
+Navigate to `/secondary` to get the secondary colors, and black and white.
+
+
 ## Project setup
 ```
 npm install
