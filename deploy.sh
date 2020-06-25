@@ -23,3 +23,12 @@ git push -f https://github.com/bacontech/learn-colors.git master:gh-pages
 
 
 cd -
+
+
+## Troubleshooting:
+## Did you add vue.config.js?
+# module.exports = {
+#    publicPath: process.env.NODE_ENV === 'production'
+#      ? './'
+#      : './'
+#  }

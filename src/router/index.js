@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import ColorWindow from '../components/ColorWindow';
+import ShapesWindow from '../components/ShapesWindow';
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ Vue.use(VueRouter)
     name: 'Quinn\'s Colors',
     component: ColorWindow,
     props: { colorSet: 'quinn' }
+  },
+  {
+    path: '/shapes',
+    name: 'Shapes',
+    component: ShapesWindow
   }
 ]
 
