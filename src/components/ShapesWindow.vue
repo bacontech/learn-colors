@@ -17,6 +17,7 @@
   import Triangle from './shapes/Traingle';
   import MyCircle from './shapes/MyCircle';
   import Square from './shapes/Square';
+  import Star from './shapes/Star';
 
   const RED = '#FF0000'
   const BLUE = '#0000FF'
@@ -33,7 +34,7 @@
 
   export default {
     name: 'ColorWindow',
-    components: {Triangle, MyCircle, Square},
+    components: {Triangle, MyCircle, Square, Star},
     props: {
       shapeSet: {
         type: String,
@@ -50,7 +51,7 @@
         }
       },
       shapes () {
-        return ['MyCircle', 'Triangle', 'Square']
+        return ['MyCircle', 'Triangle', 'Square', 'Star']
       }
     },
     data () {
