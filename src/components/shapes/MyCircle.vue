@@ -32,8 +32,8 @@
 
 <style scoped>
   .circle {
-    height: 10rem;
-    width: 10rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 50%;
     display: inline-block;
   }

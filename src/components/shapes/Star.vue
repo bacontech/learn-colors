@@ -40,26 +40,26 @@
 <style scoped>
 
   .star {
-    margin: 5rem 0;
+    margin: 10rem 0;
     position: relative;
     display: block;
     color: red;
     width: 0rem;
     height: 0rem;
-    border-right: 10rem solid transparent;
-    border-bottom: 7rem solid red;
-    border-left: 10rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-bottom: 14rem solid red;
+    border-left: 20rem solid transparent;
     transform: rotate(35deg);
   }
   .star:before {
-    border-bottom: 8rem solid red;
-    border-left: 3rem solid transparent;
-    border-right: 3rem solid transparent;
+    border-bottom: 16rem solid red;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
     position: absolute;
     height: 0;
     width: 0;
-    top: -4rem;
-    left: -6rem;
+    top: -8rem;
+    left: -12rem;
     display: block;
     content: '';
     transform: rotate(-35deg);
@@ -68,20 +68,20 @@
     position: absolute;
     display: block;
     color: red;
-    top: .3rem;
-    left: -10.5rem;
+    top: .6rem;
+    left: -21rem;
     width: 0rem;
     height: 0rem;
-    border-right: 10rem solid transparent;
-    border-bottom: 7rem solid red;
-    border-left: 10rem solid transparent;
+    border-right: 20rem solid transparent;
+    border-bottom: 14rem solid red;
+    border-left: 20rem solid transparent;
     transform: rotate(-70deg);
     content: '';
   }
 
   .container {
     height: 0;             /* collapse the container's height */
-    width: 10em;    /* specify any width you want (a percentage value, basically) */
+    width: 20em;    /* specify any width you want (a percentage value, basically) */
     /* apply a padding using the following formula */
     /* this formula makes sure the aspect ratio of the container equals that of the svg graphic */
     position: relative;    /* create positioning context for svg */

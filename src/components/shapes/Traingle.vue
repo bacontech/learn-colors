@@ -18,7 +18,7 @@
     computed: {
       triangleStyle () {
         return {
-          borderBottom: `10rem solid ${this.color}`
+          borderBottom: `20rem solid ${this.color}`
         }
       }
     },
@@ -36,8 +36,8 @@
   .triangle {
     width: 0;
     height: 0;
-    border-left: 5rem solid transparent;
-    border-right: 5rem solid transparent;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
     /*border-bottom: 100px solid red;  in-line for dynamic colors*/
   }
 
