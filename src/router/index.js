@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import ColorWindow from '../components/ColorWindow';
 import ShapesWindow from '../components/ShapesWindow';
+import LettersWindow from '@/components/LettersWindow'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,21 @@ Vue.use(VueRouter)
     path: '/shapes',
     name: 'Shapes',
     component: ShapesWindow
+  },
+  {
+    path: '/letters',
+    name: 'Letters',
+    component: LettersWindow,
+    props: { colorSet: 'quinn' }
+  },
+  {
+    path: '/letters/ordered',
+    name: 'Letters',
+    component: LettersWindow,
+    props: {
+      colorSet: 'quinn',
+      ordered: true
+    }
   }
 ]
 
