@@ -28,3 +28,15 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Deployment
+
+```
+npm run build
+cd dist
+git init
+git add -A
+git commit -m 'deploy'
+git push -f https://github.com/bacontech/learn-colors.git master:gh-pages
+cd -
+```
