@@ -4,7 +4,9 @@
       <router-link to="/">Learn Colors</router-link> |
       <router-link to="/secondary">Secondary Colors</router-link> |
       <router-link to="/quinn">Quinn Colors</router-link> |
-      <router-link to="/shapes">Shapes</router-link>
+      <router-link to="/shapes">Shapes</router-link> |
+      <router-link to="/letters/ordered">ABCs</router-link> |
+      <router-link to="/letters">BACs</router-link>
     </div>
     <router-view/>
   </div>
@@ -30,5 +32,8 @@
 
 #nav a.router-link-exact-active {
   color: #2c3e50;
+}
+body {
+  margin: 0;
 }
 </style>
